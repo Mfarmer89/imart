@@ -1,0 +1,93 @@
+div {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+div.header {
+    box-shadow: 6px 5px 15px 0px #000000;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    position: relative;
+}
+
+img.facebook {
+    position: absolute; 
+    right: 200px; 
+    top: 25px;
+}
+
+img.contactus {
+    position: absolute; 
+    right: 160px; 
+    top: 25px;
+}
+
+div.main {
+    border-radius: 15px;
+    box-shadow: 6px 5px 15px 0px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img.store {
+    margin: 10px;
+}
+
+
+.nav {
+    background-color: red;
+}
+
+.nav a {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    padding: .4em 2em;
+}
+
+.nav li {
+    margin: auto;
+}
+
+.dropdown:hover .dropdown-menu {
+    background-color: red;
+    display: block;
+  }
+
+div.dropdown-menu {
+      background-color: red;
+  }
+
+.location-bar {
+    background-color: red;
+    color: white; 
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* #real-size {
+    background: url(logos.png) -400px -40px no-repeat;
+    display: block;
+    width: 400px;
+    height: 80px;
+  } */
+  
+  /* The image is shrunk down 50% from 1200x900 to 600x450 using "background-size". 
+  This is the size used on the website. */
+  #displayed-size {
+    background: url(logos.png) -200px -20px no-repeat;
+    background-size: 600px 450px;
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+  }
+
+.sungroup-bar a{
+    color: #074f9b;
+    font-size: 12px;
+}
+ 
+.sungroup-bar {
+    padding: 10px 25px;
+}
